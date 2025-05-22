@@ -1,4 +1,5 @@
 {
     "baseUrl": "https://petstore.swagger.io/v2/user/",
-    "codeOk": 200
+    "codeOk": 200,
+    "codeErr": 404
 }

@@ -1,7 +1,7 @@
 {
     "user1": {
         "id": 1919191,
-        "username": "Блинова Ариана",
+        "username": "viza1919191",
         "firstName": "Ариана",
         "lastName": "Блинова",
         "email": "user1@test.ru",
@@ -12,7 +12,7 @@
 
     "user2": {
         "id": 1919192,
-        "username": "Осипова Екатерина",
+        "username": "viza1919192",
         "firstName": "Екатерина",
         "lastName": "Осипова",
         "email": "user2@test.ru",
@@ -21,9 +21,20 @@
         "userStatus": 2
     },
 
+    "user2New": {
+        "id": 1919194,
+        "username": "viza1919194",
+        "firstName": "Михаил",
+        "lastName": "Рогов",
+        "email": "user4@test.ru",
+        "password": "4",
+        "phone": "4",
+        "userStatus": 4
+    },
+
     "user3": {
         "id": 1919193,
-        "username": "Богданова Анастасия",
+        "username": "viza1919193",
         "firstName": "Анастасия",
         "lastName": "Богданова",
         "email": "user3@test.ru",
