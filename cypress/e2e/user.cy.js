@@ -48,6 +48,7 @@ describe("User API", () => {
             expect(response.body.message).to.eq(`${userData.user3.id}`);
         });
 
+        cy.wait(2000);
         cy.userGet(`${apiData.baseUrl}${userData.user3.username}`).then(
             ({ status, body }) => {
                 expect(status).to.eq(apiData.codeOk);
@@ -55,6 +56,7 @@ describe("User API", () => {
             }
         );
 
+        cy.wait(2000);
         cy.userDelete(`${apiData.baseUrl}${userData.user3.username}`).then(
             response => {
                 expect(response.status).to.eq(apiData.codeOk);
@@ -64,6 +66,7 @@ describe("User API", () => {
             }
         );
 
+        cy.wait(2000);
         cy.userGet(`${apiData.baseUrl}${userData.user3.username}`).then(
             ({ status }) => {
                 expect(status).to.eq(apiData.codeErr);
